@@ -12,6 +12,3 @@ hông phải domain exampleitest@yahoo.com), chiều dài email từ 10 đến 2
 OR
 	(user_email LIKE '%@gmail.com' AND user_email LIKE '%i%'AND LENGTH(user_name) >=10 AND LENGTH(user_name) <= 20)
 	
-b5  Liệt kê danh sách mua hàng của user bao gồm giá tiền của mỗi đơn hàng, thông tin
-hiển thị gồm: mã user, tên user, mã đơn hàng, tổng tiền, số sản phẩm. Mỗi user chỉ
-chọn ra 1 đơn hàng có số sản phẩm là nhiều nhất
